@@ -1,0 +1,41 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write \"**/*.+(js|yml|yaml|json)\"",
+    "test": "jest --forceExit",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "prettier": "^1.19.1",
+    "socket.io-client": "^2.3.1"
+  },
+  "dependencies": {
+    "chatdb-picsart-hw": "^2.0.0",
+    "cross-fetch": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.12",
+    "mysql": "^2.18.1",
+    "objection": "^2.2.3",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
